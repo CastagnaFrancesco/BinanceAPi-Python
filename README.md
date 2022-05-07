@@ -1,6 +1,6 @@
-=================================
-Welcome to python-binance v1.0.16
-=================================
+
+# python-binance API v1.0.16
+
 
 Updated 7th May 2022
 
