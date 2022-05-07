@@ -48,7 +48,7 @@ pass `testnet=True` when creating the client.
 
 .. code:: python
 
-    from binance import Client, ThreadedWebsocketManager, ThreadedDepthCacheManager
+    from binance import Client
     client = Client(api_key, api_secret)
 
     # get market depth
