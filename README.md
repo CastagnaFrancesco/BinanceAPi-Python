@@ -7,12 +7,8 @@ Updated 7th May 2022
 
 This is an unofficial Python wrapper for the `Binance exchange REST API v3 <https://binance-docs.github.io/apidocs/spot/en>`_. I am in no way affiliated with Binance, use at your own risk.
 
-If you came here looking for the `Binance exchange <https://www.binance.com/?ref=10099792>`_ to purchase cryptocurrencies, then `go here <https://www.binance.com/?ref=10099792>`_.
-If you want to automate interactions with Binance stick around.
+This wrapper allows you to autimate binance functions.
 
-
-Source code
-  https://github.com/sammchardy/python-binance
 
 Documentation
   https://python-binance.readthedocs.io/en/latest/
@@ -24,27 +20,13 @@ Blog with examples including async
   https://sammchardy.github.io
 
 
-Make sure you update often and check the `Changelog <https://python-binance.readthedocs.io/en/latest/changelog.html>`_ for new features and bug fixes.
-
-
-Features
+General Features Allowed
 --------
 
-- Implementation of all General, Market Data and Account endpoints.
-- Asyncio implementation
-- Testnet support for Spot, Futures and Vanilla Options
-- Simple handling of authentication
-- No need to generate timestamps yourself, the wrapper does it for you
-- Response exception handling
-- Websocket handling with reconnection and multiplexed connections
-- Symbol Depth Cache
-- Historical Kline/Candle fetching function
-- Withdraw functionality
-- Deposit addresses
-- Margin Trading
-- Futures Trading
-- Vanilla Options
-- Support other domains (.us, .jp, etc)
+- Get Historial Exceutions
+- Get Market Data Endpoints
+- Execute Orders
+- Get Account Details
 
 
 Quick Start
@@ -54,8 +36,6 @@ Quick Start
 
 `Generate an API Key <https://www.binance.com/en/my/settings/api-management>`_ and assign relevant permissions.
 
-If you are using an exchange from the US, Japan or other TLD then make sure pass `tld='us'` when creating the
-client.
 
 To use the `Spot <https://testnet.binance.vision/>`_ or `Vanilla Options <https://testnet.binanceops.com/>`_ Testnet,
 pass `testnet=True` when creating the client.
